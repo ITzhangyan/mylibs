@@ -21,9 +21,6 @@ android {
             consumerProguardFiles 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        kotlinOptions.freeCompilerArgs += ['-module-name', "com.github.CymChad.brvah"]
-    }
 }
 
 
